@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web-multimedia</title>
+    <link rel="stylesheet" href="./public/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My cool slide-show</h1>
+        
+        <div class="scroller">
+            <p id="comment">no comments</p>
+            <div class="big-img"><img src="./public/img/img-1.jpg" id="big-img" alt="main-img"></div>
+            <div class="list">
+                <div class="preview"><button id="prev">prev</button></div>
+                <div id="prev-1" class="preview selected"><img src="./public/img/img-1.jpg" alt="img-1"></div>
+                <div id="prev-2" class="preview"><img src="./public/img/img-2.jpg" alt="img-2"></div>
+                <div id="prev-3" class="preview"><img src="./public/img/img-3.jpg" alt="img-3"></div>
+                <div id="prev-4" class="preview"><img src="./public/img/img-4.jpg" alt="img-4"></div>
+                <div id="prev-5" class="preview"><img src="./public/img/img-5.jpg" alt="img-5"></div>
+                <div class="preview"><button id="next">next</button></div>
+            </div>
+        </div>
+        <footer>
+            <audio id="audio" controls>
+                <source src="./public/audio/da.mp3" type="audio/mpeg">
+            </audio>
+            <div id="visual"></div>
+            <ul>
+                <li id="tr-1" class="playing"><a>track1</a></li>
+                <li id="tr-2"><a>track2</a></li>
+                <li id="tr-3"><a>track3</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="./public/scripts/index.js"></script>
+</body>
+
+</html>
